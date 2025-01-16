@@ -1,6 +1,7 @@
-#include <string.h>
 #include <stdio.h>
 #include <stdlib.h>
+#include <unistd.h>
+#include <sys/stat.h>
 
 // This program prints the size of a specified file in bytes
 int main(int argc, char** argv) {
